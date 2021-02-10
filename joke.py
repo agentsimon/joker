@@ -21,7 +21,7 @@ from random import randint
 seed(1)
 
 #Read the CSV file
-file_name = '/home/pi/Documents/Jokeproject/jokes.csv'
+file_name = '/home/pi/Documents/joker-main/jokes.csv'
 jokes_list = open(file_name, 'r')
 csvFileArray = []
 for row in csv.reader(jokes_list, delimiter = '.'):
